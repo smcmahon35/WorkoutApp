@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Exercise Form</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="height:2000px">
+
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+        <a href="/" class="navbar-brand mb-0 h1">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    aria-controls = "navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">Exercises</a>
+                    <form action="/muscleWorked">
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle" value="Quads"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle2" value="Hamstrings"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle3" value="Calves"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle4" value="Chest"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle5" value="Shoulders"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle6" value="Triceps"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle7" value="Back"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle8" value="Biceps"></li>
+                        <li><input type="submit" class="dropdown-item" name="muscle" id="muscle9" value="Core"></li>
+                    </ul>
+                    </form>
+                </li>
+                <li class="nav-item">
+                    <a href="/form" class="nav-link">
+                        Recommend
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <form class="d-flex" action="/search">
+
+            <label>
+                <input class="form-control me-2" type="text" name="search">
+            </label>
+            <button type="submit" class="btn btn-primary" >Search</button>
+        </form>
+    </div>
+</nav>
+
+
+<div class= "navbar navbar-default navbar-fixed-bottom mt-5">
+<form method="post" class="col-lg-6 offset-lg-3" >
+        <div class="mb-3">
+            <label for="inputName" class="form-label"> Exercise Name</label>
+            <input class="form-control" id="inputName" name="name" maxlength="45">
+        </div>
+    <div class="mb-3">
+        <select class="form-select" name="muscle" aria-label="Default select example">
+            <option selected>Muscle Group</option>
+            <option value="Quads">Quads</option>
+            <option value="Hamstrings">Hamstrings</option>
+            <option value="Calves">Calves</option>
+            <option value="Chest">Chest</option>
+            <option value="Shoulders">Shoulders</option>
+            <option value="Triceps">Triceps</option>
+            <option value="Back">Back</option>
+            <option value="Biceps">Biceps</option>
+            <option value="Core">Core</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="inputDescription" class="form-label"> Description </label>
+        <textarea class="form-control" id="inputDescription" name="description" maxlength="200" rows="3"></textarea>
+    </div>
+
+        <div class="mb-3">
+            <label for="inputLink" class="form-label"> Link</label>
+            <input class="form-control" id="inputLink" name="link" maxlength="45" aria-describedby="linkHelp">
+            <div id="linkHelp" class="form-text">The link must be a Youtube embed link in the form of youtube.com/embed</div>
+        </div>
+
+        <input type="submit" value="Submit">
+
+</form>
+</div>
+</body>
+</html>

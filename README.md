@@ -26,4 +26,8 @@ https://user-images.githubusercontent.com/73620346/189949223-d3df9ce5-e4cb-4e1d-
 
 
 https://user-images.githubusercontent.com/73620346/189949357-0882bbc8-a987-4479-8978-c1a982d8fa80.mp4
+  
+  
+<h1> Upcoming Features </h1>
+<p> Features that are coming in the future are to let Users make accounts and have it so users can upload full workouts under there account. Users will be able to like exercises recommendations so that the search for a specific exercise will be more focused to what is the most liked.
 

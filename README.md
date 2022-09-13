@@ -1,2 +1,2 @@
 # WorkoutApp
-This project focuses on using a Java Backend, HTML/JSP frontend, and a MySQL database to create a web application where people can upload workouts and view other peoples uploaded workouts. Communication to and from the database uses the Hibernate framework and uses the Bootstrap framework for HTML styling.
+This application creates a way for anyone to upload there favorite workout for others to see. Users can also view exercises that are posted by other users. Once a workout is posted by a user from the recommend page it is now on the website forever for anyone to view.

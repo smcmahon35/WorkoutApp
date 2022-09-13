@@ -3,8 +3,8 @@ This application creates a way for anyone to upload there favorite workout for o
 
 <h1> Technologies Used </h1>
 <p>-Bootsrap framework and HTML for sytling the webpage</p>
--Apache Tomcat for the webserver
--Java Servlet and JSP to communicate from the webserver to the backend.
--MySQL database to store the information from the exercise forms
--Intellij Idea Ultimate as the IDE for the entire project
--Maven for the structure of the project
+<p>-Apache Tomcat for the webserver</p>
+<p>-Java Servlet and JSP to communicate from the webserver to the backend.</p>
+<p>-MySQL database to store the information from the exercise forms</p
+<p>-Intellij Idea Ultimate as the IDE for the entire project</p>
+<p>-Maven for the structure of the project</p>
